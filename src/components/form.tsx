@@ -3,7 +3,7 @@
 
 import { useState } from 'react';
 import axios from 'axios';
-
+import React from 'react';
 import {
     Card,
     Input,
@@ -24,7 +24,7 @@ import {
     
     
     
-    const handleFormSubmit = async (e) => {
+    const handleFormSubmit = async (e: React.FormEvent) => {
       e.preventDefault();
     
       console.log('Form Data:', {
