@@ -1,5 +1,5 @@
 import StickyNavbar from "../../components/navbar"
-import DefaulSimpleCard from "../../components/nossaslojas"
+import DefaulSimpleCard from "../../components/nossasLojas"
 
 export default function Page() {
     return (
