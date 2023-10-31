@@ -24,7 +24,7 @@ import {
     
     
     
-    const handleFormSubmit = async (e) => {
+    const handleFormSubmit = async (e: { target: { name: any; value: any; }; }) => {
       e.preventDefault();
     
       console.log('Form Data:', {
