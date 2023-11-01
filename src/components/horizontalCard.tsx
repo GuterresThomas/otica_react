@@ -29,9 +29,7 @@ import {
           <Typography variant="h4" color="blue-gray" className="mb-2">
             Confira alguns de nossos novos modelos!
           </Typography>
-          <Typography color="gray" className="mb-8 font-normal">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius tempore nemo nam culpa nobis magnam pariatur at provident aliquid voluptas aliquam sed ab facilis porro ullam, iure quidem tempora. Iusto.
-          </Typography>
+          
           <a href="/modelos" className="inline-block">
             <Button variant="text" className="flex text-xl items-center gap-2">
               Ver modelos
