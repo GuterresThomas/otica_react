@@ -16,7 +16,7 @@ import {
           className="font-montserrat m-0 w-2/5 shrink-0 rounded-r-none"
         >
           <img
-            src="/loiracomoculos.jpg"
+            src="/atacadao_101.jpg"
             alt="card-image"
             className="font-montserrat h-full w-full object-cover hover:scale-110"
           />

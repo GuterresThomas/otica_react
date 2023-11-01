@@ -29,7 +29,7 @@ import {
             Já pensou em trabalhar conosco?
           </Typography>
           <Typography variant="lead" color="gray" className=" font-montserrat mt-3">
-            Não perca a chance de trabalhar na maior rede de óticas do estado! Envie agora mesmo seu curriculo para se tornar um(a) de nossos(a) colaboradores(a)!
+            Não perca a chance de trabalhar em uma das maiores redes de óticas do estado! Envie agora mesmo seu curriculo para se tornar um(a) de nossos(a) colaboradores(a)!
           </Typography>
         </CardBody>
         <CardFooter className="font-montserrat flex items-center justify-between">
