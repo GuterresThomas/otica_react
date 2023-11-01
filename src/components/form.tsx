@@ -65,7 +65,8 @@ import {
   
   
     return (
-      <Card color="transparent" shadow={false}>
+      <div className="m-4">
+        <Card color="transparent" shadow={false}>
         <Typography variant="h4" color="blue-gray">
           Trabalhe conosco
         </Typography>
@@ -124,5 +125,6 @@ import {
           </Button>
         </form>
       </Card>
+      </div>
     );  
   }
