@@ -37,6 +37,86 @@ export default function CarouselDefaultGlasses() {
         src="/oculos12.jpeg" alt="image 8"
         className="h-full w-full object-cover"
       />
+      <img
+        src="/oculos13.jpg" alt="image 8"
+        className="h-full w-full object-cover"
+      />
+      <img
+        src="/oculos14.jpg" alt="image 8"
+        className="h-full w-full object-cover"
+      />
+      <img
+        src="/oculos15.jpg" alt="image 8"
+        className="h-full w-full object-cover"
+      />
+      <img
+        src="/oculos16.jpg" alt="image 8"
+        className="h-full w-full object-cover"
+      />
+      <img
+        src="/oculos17.jpg" alt="image 8"
+        className="h-full w-full object-cover"
+      />
+      <img
+        src="/oculos18.jpg" alt="image 8"
+        className="h-full w-full object-cover"
+      />
+      <img
+        src="/oculos19.jpg" alt="image 8"
+        className="h-full w-full object-cover"
+      />
+      <img
+        src="/oculos20.jpg" alt="image 8"
+        className="h-full w-full object-cover"
+      />
+      <img
+        src="/oculos21.jpg" alt="image 8"
+        className="h-full w-full object-cover"
+      />
+      <img
+        src="/oculos22.jpg" alt="image 8"
+        className="h-full w-full object-cover"
+      />
+      <img
+        src="/oculos23.jpg" alt="image 8"
+        className="h-full w-full object-cover"
+      />
+      <img
+        src="/oculos24.jpg" alt="image 8"
+        className="h-full w-full object-cover"
+      />
+      <img
+        src="/oculos25.jpg" alt="image 8"
+        className="h-full w-full object-cover"
+      />
+      <img
+        src="/oculos26.jpg" alt="image 8"
+        className="h-full w-full object-cover"
+      />
+      <img
+        src="/oculos27.jpg" alt="image 8"
+        className="h-full w-full object-cover"
+      />
+      <img
+        src="/oculos28.jpg" alt="image 8"
+        className="h-full w-full object-cover"
+      />
+      <img
+        src="/oculos29.jpg" alt="image 8"
+        className="h-full w-full object-cover"
+      />
+      <img
+        src="/oculos30.jpg" alt="image 8"
+        className="h-full w-full object-cover"
+      />
+      <img
+        src="/oculos31.jpg" alt="image 8"
+        className="h-full w-full object-cover"
+      />
+      <img
+        src="/oculos32.jpg" alt="image 8"
+        className="h-full w-full object-cover"
+      />
     </Carousel>
   );
 }

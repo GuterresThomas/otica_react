@@ -120,7 +120,7 @@ import {
               }
             }} crossOrigin={undefined}            />
           </div>
-          <Button className="mt-6" fullWidth type="submit">
+          <Button className="mt-6" fullWidth type="submit" onClick={handleFormSubmit}>
             Enviar
           </Button>
         </form>
