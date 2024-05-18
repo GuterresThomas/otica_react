@@ -29,8 +29,12 @@ export default function PopUpCard({ isOpen, onClose }: PopUpCardProps) {
         <div className="fixed inset-0 flex items-center justify-center bg-transparent bg-opacity-100 z-50">
             <div ref={popupRef} className="bg-transparent p-4 rounded-xl">
                 <Carousel>
-                    <img src="promo1.png" alt="Promo 1" style={{ maxHeight: '40rem' }} className="" />
-                    <img src="promo2.png" alt="Promo 2" style={{ maxHeight: '40rem' }} className="" />
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '40rem' }}>
+                        <img src="promo1.png" alt="Promo 1" style={{ maxHeight: '100%', maxWidth: '100%' }} />
+                    </div>
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '40rem' }}>
+                        <img src="promo2.png" alt="Promo 2" style={{ maxHeight: '100%', maxWidth: '100%' }} />
+                    </div>
                 </Carousel>
             </div>
         </div>
