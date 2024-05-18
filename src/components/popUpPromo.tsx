@@ -26,12 +26,14 @@ export default function PopUpCard({ isOpen, onClose }: PopUpCardProps) {
     return (
         <div className="fixed inset-0 flex items-center justify-center bg-transparent bg-opacity-100 z-50">
             <div ref={popupRef} className="bg-transparent p-4 rounded-xl relative">
-                <button
-                    onClick={onClose}
-                    className=" bg-white p-2 rounded-full text-gray-700 hover:bg-gray-200 focus:outline-none focus:bg-gray-200"
-                >
-                    Fechar
-                </button>
+            <div className="flex justify-end">
+                    <button
+                        onClick={onClose}
+                        className="bg-white p-2 rounded-full text-gray-700 hover:bg-gray-200 focus:outline-none focus:bg-gray-200"
+                    >
+                        Fechar
+                    </button>
+                </div>
                 <Carousel>
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '32rem' }}>
                         <img src="promo1.png" alt="Promo 1" style={{ maxHeight: '100%', maxWidth: '100%' }} />
