@@ -1,6 +1,6 @@
 'use client'
 
-import React from 'react';
+import React, { CSSProperties } from 'react';
 
 export default function GridDefaultGlasses() {
   const images = [
@@ -13,14 +13,14 @@ export default function GridDefaultGlasses() {
     "/oculos29.jpg", "/oculos30.jpg", "/oculos31.jpg", "/oculos32.jpg"
   ];
 
-  const containerStyle = {
+  const containerStyle: CSSProperties = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fill, minmax(150px, 1fr))',
     gap: '16px',
     padding: '16px'
   };
 
-  const itemStyle = {
+  const itemStyle: CSSProperties = {
     backgroundColor: '#E2E8F0',
     borderRadius: '8px',
     overflow: 'hidden',
@@ -31,7 +31,7 @@ export default function GridDefaultGlasses() {
     justifyContent: 'center'
   };
 
-  const imgStyle = {
+  const imgStyle: CSSProperties = {
     width: '100%',
     height: '100%',
     objectFit: 'cover'
