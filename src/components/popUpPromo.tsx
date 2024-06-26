@@ -36,10 +36,10 @@ export default function PopUpCard({ isOpen, onClose }: PopUpCardProps) {
                 </div>
                 <Carousel>
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '32rem' }}>
-                        <img src="promo1.png" alt="Promo 1" style={{ maxHeight: '100%', maxWidth: '100%' }} />
+                        <img src="promo1.webp" alt="Promo 1" style={{ maxHeight: '100%', maxWidth: '100%' }} />
                     </div>
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '32rem' }}>
-                        <img src="promo2.png" alt="Promo 2" style={{ maxHeight: '100%', maxWidth: '100%' }} />
+                        <img src="promo2.webp" alt="Promo 2" style={{ maxHeight: '100%', maxWidth: '100%' }} />
                     </div>
                 </Carousel>
             </div>

@@ -12,7 +12,7 @@ export default function CardPromoComponent() {
     return (
         <div className="mt-2">
             <Carousel className="rounded-xl">
-                <img src="promoazul.png"/>
+                <img src="promoazul.webp"/>
             </Carousel>
         </div>
     )

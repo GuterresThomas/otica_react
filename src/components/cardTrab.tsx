@@ -20,7 +20,7 @@ import {
           className=" font-montserrat m-0 rounded-none"
         >
           <img
-            src="atacadao_49.jpg"
+            src="atacadao_49.webp"
             alt="ui/ux review check"
           />
         </CardHeader>

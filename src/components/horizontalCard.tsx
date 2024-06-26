@@ -17,7 +17,7 @@ import {
           className="m-0 w-2/5 shrink-0 rounded-r-none"
         >
           <img
-            src="/atacadao_246.jpg"
+            src="/atacadao_246.webp"
             alt="card-image"
             className="h-full w-full object-cover hover:scale-110"
           />
